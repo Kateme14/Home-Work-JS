@@ -45,3 +45,14 @@ console.log(`Variable: age have type ${typeof age}`)
 console.log(`Variable: single have type ${typeof single}`)
 
 console.log(prompt("имя"), prompt("возраст"))
+
+let f = 4
+let q = 3
+
+f = f + q
+q = f - q
+f = f - q
+
+console.log("f =", f)
+console.log("q =", q)
+
